@@ -8,12 +8,12 @@ import * as serviceWorker from "./serviceWorker";
 
 const rootEL = document.getElementById("root");
 let render = () => {
-    ReactDOM.render(
-        <BrowserRouter>
-            <App />
-        </BrowserRouter>,
-        rootEL
-    );
+  ReactDOM.render(
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>,
+    rootEL
+  );
 };
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
