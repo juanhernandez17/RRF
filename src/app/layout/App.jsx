@@ -9,6 +9,7 @@ import UserDetailed from "../../features/user/UserDetailed/UserDetailedPage";
 import PeopleDash from "../../features/user/PeopleDash/PeopleDash";
 import EventDetailedPage from "../../features/events/EventDetailed/EventDetailedPage";
 import HomePage from "../../features/home/HomePage";
+import TestComponent from "../../features/test/TestComponent";
 
 class App extends Component {
   render() {
@@ -26,6 +27,7 @@ class App extends Component {
               <Container className="main">
                 <Switch>
                   <Route path="/events" component={EventDash} />
+                  <Route path="/test" component={TestComponent} />
                   <Route path="/event/:id" component={EventDetailedPage} />
                   <Route path="/people" component={PeopleDash} />
                   <Route path="/profile/:id" component={UserDetailed} />
